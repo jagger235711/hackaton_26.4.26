@@ -83,3 +83,34 @@ src/
 └── main.jsx          # 入口文件
 ```
 
+***
+
+### 效果展示
+
+- 主界面
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261639371.png)
+
+- 搓牌模式
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261644074.png)
+
+- 刮刮卡模式
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261645737.png)
+
+- 选股界面
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261641960.png)![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261642461.png)
+
+- 赚了
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261642938.png)
+
+- 亏了
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261643128.png)
+
+- 安慰
+
+![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261644210.png)
