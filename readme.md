@@ -1,4 +1,69 @@
-# Trae&黑客松活动
+# 第一届桂林电子科技大学\&TRAE黑客松活动
+
+三等奖作品
+
+## 成果预览
+
+[成果预览](https://hackaton26426.vercel.app/)
+
+## 目前已知的bug
+
+- ~~在本地部署的时候是可以搜索股票的，部署到线上之后不知道为啥不行了~~ ✅ 已添加备用数据
+- 在手机上访问的时候音效由于浏览器限制可能失效
+- 股票API在生产环境可能有CORS限制，建议使用备用数据或自建后端代理
+
+## 部署说明
+
+### 本地开发
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+```
+
+### 构建生产版本
+
+```bash
+# 构建
+npm run build
+
+# 预览构建结果
+npm run preview
+```
+
+### 部署到 Vercel
+
+1. 安装 Vercel CLI：
+```bash
+npm i -g vercel
+```
+
+2. 登录并部署：
+```bash
+vercel login
+vercel
+```
+
+3. 或者通过 GitHub 推送后，在 Vercel 官网导入仓库自动部署
+
+### 部署到其他平台
+
+构建产物位于 `dist/` 目录，可部署到任何静态托管服务：
+
+- **Vercel**: `vercel deploy dist/`
+- **Netlify**: `netlify deploy --prod --dir=dist`
+- **Cloudflare Pages**: 通过 GitHub 集成
+- **GitHub Pages**: 使用 `gh-pages` 包或 GitHub Actions
+
+### 环境要求
+
+- Node.js >= 18
+- npm >= 9
+
+***
 
 ![](https://cdn.jsdelivr.net/gh/jagger235711/coooool@main/img/202604261350432.png)
 
